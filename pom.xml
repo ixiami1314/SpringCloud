@@ -12,15 +12,19 @@
     <description>Demo project for Spring Cloud</description>
 
     <modules>
-        <module>auth</module>
-        <module>center</module>
-        <module>common</module>
-        <module>gateway</module>
-        <module>webapps</module>
-        <module>monitor</module>
-        <module>sysadmin</module>
-        <module>demos</module>
-        <module>facade</module>
+<!--        <module>auth</module>-->
+<!--        <module>center</module>-->
+<!--        <module>common</module>-->
+<!--        <module>gateway</module>-->
+<!--        <module>webapps</module>-->
+<!--        <module>monitor</module>-->
+<!--        <module>sysadmin</module>-->
+<!--        <module>demos</module>-->
+<!--        <module>facade</module>-->
+        <module>base-authorization</module>
+        <module>base-gateway</module>
+        <module>base-organization</module>
+        <module>opensabre-framework</module>
     </modules>
 
     <profiles>
@@ -109,6 +113,19 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>byt</id> <!-- 这个id需要和settings.xml里配置的server的id对应 -->
+            <name>Releases Repository</name>
+            <url>http://192.168.200.199:8081/nexus/content/repositories/byt/</url>
+        </repository>
+        <snapshotRepository>
+            <id>byt</id> <!-- 这个id需要和settings.xml里配置的server的id对应 -->
+            <name>Snapshot Repository</name>
+            <url>http://192.168.200.199:8081/nexus/content/repositories/thirdparty/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <repositories>
         <repository>
