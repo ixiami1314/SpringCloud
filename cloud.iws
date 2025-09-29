@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8639f85f-5db4-421b-97f0-5713b2379799" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy-jar-to-nexus.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/base-gateway" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.ipr" afterDir="false" />
+    <list default="true" id="8639f85f-5db4-421b-97f0-5713b2379799" name="Changes" comment="把对应的依赖都注入到私有库中了，以及留下install到私有库语句">
       <change beforePath="$PROJECT_DIR$/cloud.iws" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,7 @@
   "keyToString": {
     "Maven.base-gateway [install].executor": "Run",
     "Maven.base-organization [install].executor": "Run",
+    "Maven.opensabre-starter-boot [install].executor": "Run",
     "Maven.opensabre-starter-config [install].executor": "Run",
     "Maven.opensabre-starter-eda [install].executor": "Run",
     "Maven.springCloud [clean].executor": "Run",
@@ -131,12 +127,25 @@
       <updated>1735710109962</updated>
       <workItem from="1735710111409" duration="285000" />
       <workItem from="1735710872098" duration="8348000" />
-      <workItem from="1759151882903" duration="6419000" />
+      <workItem from="1759151882903" duration="12096000" />
     </task>
+    <task id="LOCAL-00001" summary="把对应的依赖都注入到私有库中了，以及留下install到私有库语句">
+      <option name="closed" value="true" />
+      <created>1759159348276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759159348276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="把对应的依赖都注入到私有库中了，以及留下install到私有库语句" />
+    <option name="LAST_COMMIT_MESSAGE" value="把对应的依赖都注入到私有库中了，以及留下install到私有库语句" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
